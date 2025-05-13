@@ -1,0 +1,15 @@
+Configuring TS Compiler
+Run command: tsc --init, this creates tsconfig.json file with default settings.
+
+Initially it will be targeted to ES2016 i.e. ES5, as it is the old standard implemented in all the browsers.
+Sepending on where we want to deploy the application we can use a higher target and this often results in shorter and less concise code.
+
+We can remove the value i.e. ES2016 and press "ctrl+space" to see all valid values.
+
+rootDir: it specifies the directory which contains source files.
+
+Under "Emit" there will be a key "outDir", this will contain the directory which will contain all our JS files.
+"removeComments": The TS compiler will remove comments in our TS code so generated JS code is gonna be shorter.
+"noEmitOnError": By default, TS compiler will generate the code even though TS code have an error. With this set to true, TS Compiler will not generate JS code.
+
+If we run command: tsc, it will compile all TS files in the project.
