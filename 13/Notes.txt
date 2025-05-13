@@ -1,0 +1,3 @@
+Enums
+TS type "enum" represents a list of related constants. 
+Eg: Sizes of tshirts
