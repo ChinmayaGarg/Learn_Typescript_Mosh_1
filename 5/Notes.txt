@@ -1,0 +1,5 @@
+Changed root directory to src.
+Working Example
+Run command: tsc
+
+Creates folder "dist", short for distributable.
