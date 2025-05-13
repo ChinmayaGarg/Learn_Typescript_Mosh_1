@@ -1,0 +1,15 @@
+Fundamentals:
+The any type
+Arrays
+Tuples
+Enums
+Functions
+Objects
+
+JS has built in types: number, string, boolean, null, undefined, object.
+TS extends it by adding: any, unknown, never, enum, tuple
+
+In TS we don't have to always annotate our variables because TS compiler can infer or detect the type of our variables based on their values.
+Eg: let sales: number = 123_456_789; or let sales = 123_456_789;
+
+If a variable is not declared and also not type-safed then TS assumes it is of type any.
