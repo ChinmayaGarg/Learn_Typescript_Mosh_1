@@ -1,0 +1,4 @@
+The TS compiler generated var keyword instead of the let keyword, by default TS use older version of JS called ES5.
+ES is a standard or specification, while JS is an implementation of the specification.
+ES5 have been around for very long time and all the features of ES5 have been implemented for very long time.
+We can configure TS compiler to target newer JS version. 
