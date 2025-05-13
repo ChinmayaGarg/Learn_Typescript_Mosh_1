@@ -1,0 +1,4 @@
+Every Typescript(TS) file should have .ts extension.
+TS is built on top of JS.
+Every JS code is a valid TS code.
+Run Command: tsc index.ts, this will compile ts files into js files. Running this command creates a new file "index.js".
