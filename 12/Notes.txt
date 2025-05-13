@@ -1,0 +1,3 @@
+Tuples
+TS has new type called tuples, it is fixed length array, where each element has a particular type.
+We often use them when working with pair of values.
