@@ -1,0 +1,12 @@
+Debugging TS Applications
+
+In tsconfig.json, Under Emit section we enable "sourceMap" feature.
+Source map is a file that specifies how each line of our TS code maps to the generated JS code.
+
+Compiling again by "tsc" command, a new file "index.js.map" gets created. This is hard to understand. It is for debuggers/machines.
+
+To debug code in vsCode, we go to Run and Debug in left panel, then click "create launch.json" file. Then choose the environment as "Node.js".
+It will create a new file launch.json in the project with some pre-defined configurations.
+
+We add ""preLaunchTask": "tsc, build - tsconfig.json"" inside launch.json. All the spaces matter. 
+Here, we are telling typescript compiler to build our application using this(tsconfig.json) configuration file.
